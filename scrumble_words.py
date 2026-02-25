@@ -1,7 +1,7 @@
 import random
 
 def scramble_word(word):
-    if len(word) > 3:
+    if len(wrd) > 3:
         middle = list(word[1:-1])
         random.shuffle(middle)
         return word[0] + ''.join(middle) + word[-1]
