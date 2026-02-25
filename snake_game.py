@@ -4,7 +4,7 @@ import random
 
 pygame.init()
 
-# Set up display
+#et up display
 width = 600
 height = 400
 game_display = pygame.display.set_mode((width, height))
