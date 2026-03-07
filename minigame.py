@@ -1,5 +1,5 @@
 import random
-
+import sys
 number = random.randint(1, 10)
 attempts = 0
 
