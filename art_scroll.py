@@ -1,5 +1,6 @@
 import pyfiglet
-#Enter text
+#Enter text aaythu
+
 text = input("Enter text: ")
 ascii_art = pyfiglet.figlet_format(text)
 print(ascii_art)
