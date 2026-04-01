@@ -13,12 +13,10 @@ def main():
         print("You must enter at least 2 complex numbers.")
         return
 
-    # Read first complex number
     real = int(input("Enter real part of complex number 1: "))
     imag = int(input("Enter imaginary part of complex number 1: "))
     total = Complex(real, imag)
 
-    # Read remaining complex numbers and add them
     for i in range(2, N+1):
         real = int(input(f"Enter real part of complex number {i}: "))
         imag = int(input(f"Enter imaginary part of complex number {i}: "))
@@ -27,7 +25,6 @@ def main():
 
     print("Sum of complex numbers =", total)
 
-# Run program
 main()
 
     
