@@ -5,8 +5,10 @@ if birth_year > current_year:
     print("Invalid input. Birth year cannot be greater than current year.")
 else:
     if (current_year-birth_year) >= 18: 
+        print("\nName: ",name)
         print("You are eligible to vote.")
     elif(current_year-birth_year) < 18:
+        print("\nName: ",name)
         print("you are not eligible to vote.")
     else:
         print("Invalid input.")
